@@ -1,0 +1,338 @@
+﻿/*===================================Megha 12 April 2018 For Invoice Print-gRID Ref===================================================*/
+.txtRight{
+    text-align:right;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: end;
+}
+
+.box {
+    border-radius: 5px;
+    /*padding: 20px;*/
+    font-size: 15px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 60% auto;
+    grid-template-rows: auto;
+    border: solid black;
+    border-width: 0 1px 1px 0;
+}
+
+    .grid-container > div {
+        /*text-align: center;*/
+        border: solid black;
+        border-width: 1px 0 0 1px;
+        padding: 8px;
+    }
+
+.p-l-8 {
+    padding: 8px;
+}
+
+.grid-container1 {
+    display: grid;
+    grid-template-columns: 60% auto;
+    grid-template-rows: auto;
+    border: solid black;
+    border-width: 0 1px 1px 0; /*t-r-b-l*/
+}
+
+    .grid-container1 > div {
+        /*text-align: center;*/
+        border: solid black;
+        border-width: 0 0 0 1px;
+        padding: 8px;
+    }
+
+.item1 {
+    grid-row: 1 / 3;
+}
+
+.item2 {
+    text-align: start;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.item3 {
+    text-align: start;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.grid-SubContainer {
+    display: grid;
+    grid-template-columns: 10% auto;
+    grid-gap: 10px;
+}
+
+    .grid-SubContainer .img {
+        /*justify-content: center;*/
+        height: 60px;
+        padding-top: 50%;
+    }
+
+.item4 {
+    grid-row: 1 / 2;
+}
+
+.subgrid-50 {
+    display: grid;
+    grid-template-columns: 50% auto;
+}
+
+.item5 {
+    border: solid black;
+    border-width: 0px 1px 0px 0px; /*t-r-b-l*/
+}
+
+.subgrid-50 > div:last-child {
+    border: solid black;
+    border-width: 0px 0px 0px 1px; /*t-r-b-l*/
+    padding-left: 8px;
+}
+
+
+.grid-container50 {
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-template-rows: auto;
+    border: solid black;
+    border-width: 0 1px 1px 0; /*t-r-b-l*/
+}
+
+    .grid-container50 > div {
+        border: solid black;
+        border-width: 0 0 0 1px;
+        padding: 8px;
+    }
+
+        .grid-container50 > div .item6 {
+            grid-template-columns: 50% auto;
+        }
+
+.grid-container150 {
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-template-rows: auto;
+    border: solid black;
+    border-width: 0 1px 0 0; /*t-r-b-l*/
+}
+
+    .grid-container150 > div {
+        border: solid black;
+        border-width: 0 0 0 1px;
+        padding: 8px;
+    }
+
+.noborderTbl tr {
+    border: none;
+}
+
+.InvTable th {
+    border: 1px solid Black;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: auto;
+    border: solid black;
+    border-width: 0 1px 0px 0; /*t-r-b-l*/
+}
+
+    .container div {
+        border: solid black;
+        border-width: 0 0 1px 1px;
+        padding: 8px;
+    }
+
+        .container div:last-child {
+            border: solid black;
+            border-width: 0 0px 0px 1px; /*t-r-b-l*/
+            padding-left: 8px;
+        }
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 60% auto;
+    grid-template-rows: auto;
+    border: solid black;
+    border-width: 1px 1px 1px 1px; /*t-r-b-l*/
+}
+
+    .grid-container2 > div {
+        /*text-align: center;*/
+        border: solid black;
+        border-width: 0 0 0 0; /*t-r-b-l*/
+        padding: 8px;
+    }
+
+.font11 {
+    font-size: 11px;
+}
+
+.font12 {
+    font-size: 12px;
+}
+
+.font12Bold {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.font15Bold {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.font10 {
+    font-size: 10px;
+}
+
+/*===================================Megha 11 April 2018 For Invoice Print===================================================*/
+.txtCenter {
+    text-align: center;
+}
+/*===================================Megha 10 April 2018 For Invoice Print===================================================*/
+.p-l-60 {
+    padding-left: 60px;
+}
+
+.InvItems .noborderTbl td, .InvItems .noborderTbl tr {
+    border: none;
+    /*border-right:1px solid;*/
+}
+
+.InvItems .noborderTbl .border-right-1 {
+    border-right: 1px solid;
+}
+
+.InvTable {
+    clear: both;
+    width: 100%;
+    border: 1px solid black;
+    border-top: none;
+}
+
+    .InvTable .noborderTbl td, .InvTable .noborderTbl tr {
+        border: none;
+    }
+
+    .InvTable td {
+        border: 1px solid black;
+        /*padding: 5px;*/
+        vertical-align: top;
+    }
+
+/*======================================================================================*/
+.font17 {
+    font-size: 17px;
+}
+
+.font14 {
+    font-size: 14px;
+}
+
+.font15 {
+    font-size: 15px;
+}
+
+font15Bold {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.font13 {
+    font-size: 13px;
+}
+
+.blank93 {
+    height: 93px;
+    /*margin:50px;*/
+}
+
+.InvItems tr .blank {
+    height: 60px;
+    /*border: 1px solid black;*/
+}
+
+.InvItems {
+    clear: both;
+    width: 100%;
+    /*margin: 15px 0 0 0;*/
+    border: 1px solid black;
+}
+
+    .InvItems td {
+        border: 1px solid black;
+        padding: 5px;
+        vertical-align: top;
+    }
+
+        .InvItems td #Image1 {
+            vertical-align: central;
+        }
+
+    /*.InvItems td span {
+            text-align: left;
+            padding-top: 2px;
+            padding-left: 5px;
+        }*/
+
+    .InvItems th {
+        font-weight: bold;
+        border: 1px solid black;
+        /*padding: 5px;
+        vertical-align: top;*/
+    }
+
+    .InvItems textarea {
+        width: 80px;
+        height: 50px;
+    }
+
+    .InvItems tr.item-row td {
+        border: 1px solid black;
+        vertical-align: top;
+    }
+
+    .InvItems td.description {
+        width: 300px;
+    }
+
+    .InvItems td.item-name {
+        width: 175px;
+    }
+
+        .InvItems td.description textarea, .InvItems td.item-name textarea {
+            width: 100%;
+        }
+
+    .InvItems td.total-line {
+        border-right: 0;
+        text-align: right;
+    }
+
+    .InvItems td.total-value {
+        border-left: 0;
+        padding: 10px;
+    }
+
+        .InvItems td.total-value textarea {
+            height: 20px;
+            background: none;
+        }
+
+    .InvItems td.balance {
+        background: .eee;
+    }
+
+/*.InvItems td.blank {
+    border: 0;
+}*/

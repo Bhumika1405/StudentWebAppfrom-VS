@@ -1,0 +1,77 @@
+﻿@model IEnumerable<StudentWebApp.Models.CourseClass>
+
+@{
+    ViewBag.Title = "AllCourseGET";
+}
+
+<h2>AllCourseGET</h2>
+<link href="https://cdn.datatables.net/1.10.15/css/dataTables.bootstrap.min.css" rel="stylesheet" />
+<link href="https://cdn.datatables.net/responsive/2.1.1/css/responsive.bootstrap.min.css" rel="stylesheet" />
+<p>
+    @Html.ActionLink("Create New", "ADDCourse")
+</p>
+<table class="table table-bordered table-responsive table-striped" id="demoGrid">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CourseName)
+            </th>
+            @*<th>
+                    @Html.DisplayNameFor(model => model.StudentID)
+                </th>*@
+            <th>
+                @Html.DisplayNameFor(model => model.CourseFee)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.studentName)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CourseName)
+                </td>
+                @*<td>
+                        @Html.DisplayFor(modelItem => item.StudentID)
+                    </td>*@
+                <td>
+                    @Html.DisplayFor(modelItem => item.CourseFee)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.studentName)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "EditCourse", new { id = item.ID }) |
+                    @Html.ActionLink("Details", "ViewCourseDetails", new { id = item.ID }) |
+                    @Html.ActionLink("Delete", "DeleteCourse", new { id = item.ID })
+                </td>
+            </tr>
+         }
+    </tbody>
+</table>
+
+@*<link href="~/Content/bootstrap.css" rel="stylesheet" />
+
+    <link href="https://cdn.datatables.net/1.10.15/css/dataTables.bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.datatables.net/responsive/2.1.1/css/responsive.bootstrap.min.css" rel="stylesheet" />*@
+
+@section scripts{
+    <script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.15/js/dataTables.bootstrap4.min.js "></script>
+    <script>
+        $(function () {
+            $('#demoGrid').DataTable({
+                "pageLength": 50
+            });
+        });
+    </script>
+}
+@*<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>*@
+@*<script src="https://cdn.datatables.net/1.10.15/js/dataTables.bootstrap4.min.js "></script>*@
+
+

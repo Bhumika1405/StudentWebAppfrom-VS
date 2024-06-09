@@ -1,0 +1,243 @@
+
+body {
+    font-size: 12px;
+    font-family: 'Hind Madurai', 'Varela Round', sans-serif;
+    color: #222222;
+    padding-bottom: 5px;
+    /*text-transform: uppercase;*/
+}
+
+#page-wrap {
+    /*width: 21cm;*/
+    /*width: 960px;*/
+    width: 90%;
+    margin: 0 auto;
+}
+.invoice-print {
+    border: 1px solid;
+}
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.v-top {
+    vertical-align: top;
+}
+
+hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 0;
+    border-top-color: currentcolor;
+    border-top-style: none;
+    border-top-width: 0px;
+    border-top: 1px solid #000;
+}
+
+.fontBold {
+    font-weight: 600;
+    font-weight: bold;
+}
+
+.fontBolder {
+    font-weight: 700;
+}
+.font-15 {
+    font-weight: bold;
+    font-size: 15px !important;
+}
+.font-18 {
+    font-weight: bold;
+    font-size: 18px !important;
+}
+.font-20{
+    font-weight: bold;
+    font-size: 20px!important;
+}
+.font-35 {
+    font-weight: bold;
+    font-size: 35px !important;
+}
+.FooterBold {
+    font-weight: bold;
+}
+
+.text-uppercase {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.m-t-b-10 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.m-t-b-15 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+m-t-15 {
+    margin-top: 15px;
+}
+
+m-t-25 {
+    margin-top: 25px;
+}
+
+.p-t-20 {
+    padding-top: 20px;
+}
+
+.p-t-30 {
+    padding-top: 30px;
+}
+.p-t-40 {
+    padding-top: 40px;
+}
+.p-t-75 {
+    padding-top: 75px;
+}
+
+.w10 {
+    width: 10%;
+}
+
+.w15 {
+    width: 15%;
+}
+
+.w20 {
+    width: 20%;
+}
+.w25 {
+    width: 25%;
+}
+
+.w33 {
+    width: 33.33%;
+}
+
+.w40 {
+    width: 40%;
+}
+
+.w50 {
+    width: 50%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: none 0px !important;
+}
+
+    table tr, th, tr {
+        border: none;
+    }
+
+    table td, table th {
+        padding: 5px;
+    }
+
+    table.borderedtable {
+        width: 100%;
+        border-width: 1px;
+        border-color: #222222;
+        border-collapse: collapse !important;
+    }
+
+        table.borderedtable th {
+            border-width: 1px;
+            padding: 3px;
+            border-color: #222222;
+            border-style: solid;
+            background-color: #dedede;
+        }
+
+        table.borderedtable td {
+            border-width: 1px;
+            padding: 3px;
+            border-color: #222222;
+            border-style: solid;
+        }
+
+    table.noborder table.noborder tr table.noborder td table.noborder th {
+        width: 100%;
+        border-collapse: collapse;
+        border: none;
+    }
+
+    table.noborder td {
+        padding: 4px;
+    }
+
+    table.norightborder {
+        border-left: 0px;
+    }
+/*Ledger Report Print*/
+table.borderedtableLedger {
+    width: 100%;
+    font-size: 12px;
+    border-width: 1px;
+    border-color: #222222;
+    border-collapse: collapse !important;
+}
+
+    table.borderedtableLedger th {
+        border-width: 1px;
+        font-size: 12px;
+        padding: 2px;
+        border-color: #222222;
+        border-style: solid;
+        background-color: #dedede;
+        text-align: center;
+    }
+
+    table.borderedtableLedger td {
+        font-size: 12px;
+        border-width: 1px;
+        padding: 3px;
+        border-color: #222222;
+        border-style: solid;
+    }
+
+table.noborderLedger table.noborderLedger tr table.noborderLedger td table.noborderLedger th {
+    width: 100%;
+    font-size: 13px;
+    border-collapse: collapse;
+    border: none;
+    vertical-align: top;
+}
+
+table.noborderLedger th {
+    text-align: center;
+}
+
+table.noborderLedger td {
+    font-size: 12px;
+    padding: 3px;
+}
+
+tr.zeroborder td {
+    border-collapse: collapse !important;
+    border-width: 0px !important;
+    border: none !important;
+    /*border-style: hidden !important;*/
+}
+.border-bottom {
+    border-bottom: 1px solid;
+}
+
+td.border-right {
+    border-right: 1px solid !important;
+}

@@ -1,0 +1,50 @@
+﻿@model StudentWebApp.Models.CourseClass
+
+@{
+    ViewBag.Title = "ViewCourseDetails";
+}
+
+<h2>ViewCourseDetails</h2>
+
+<div>
+    <h4>CourseClass</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CourseName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CourseName)
+        </dd>
+
+        @*<dt>
+            @Html.DisplayNameFor(model => model.StudentID)
+        </dt>*@
+
+        @*<dd>
+            @Html.DisplayFor(model => model.StudentID)
+        </dd>*@
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CourseFee)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CourseFee)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.studentName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.studentName)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "EditCourse", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "AllCourseGET")
+</p>

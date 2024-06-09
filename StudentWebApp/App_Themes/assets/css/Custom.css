@@ -1,0 +1,131 @@
+﻿/*------------------------------16 July 2018 PM Megha---------------------------------------------------*/
+ .cursorpointer
+{
+    cursor:pointer;
+}
+
+table tbody tr.selectedRow {
+    font-weight: 500;
+    font-size: 15px;
+    background-color: green;
+    color: #ffffff;
+}
+/*------------------------------14 July 2018 PM Megha---------------------------------------------------*/
+.modelBackground {
+    background-color: Black;
+    filter: alpha(opacity=40);
+    opacity: 0.4;
+}
+
+.modelPopup .no {
+    background-color: aliceblue;
+    border: 1px solid #808080;
+}
+
+.modelPopup .yes {
+    background-color: black;
+    border: 1px solid #0DA9D0;
+}
+
+.modelPopup .yes, .modelPopup .no {
+    height: 23px;
+    color: white;
+    line-height: 23px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.modelPopup .Customfooter {
+    padding: 3px;
+}
+
+.modelPopup .Custombody {
+    min-height: 50px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+
+.modelPopup .Customheader {
+    background-color: #188AE2;
+    height: 30px;
+    color: white;
+    line-height: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.modelPopup {
+    background-color: #FFFFFF;
+    width: 300px;
+    /*border: 3px solid #0DA9D0;*/
+}
+
+
+
+
+/*---------------------------------------------------------------------------------*/
+.m-l-25 {
+    margin-left: 25px;
+}
+
+/*-----------------Nikita 14 June 2018  -----------------------------*/
+/*.HdrLbl {
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 15px;
+}*/
+
+.HdrLbl {
+    font-size: 13px;
+    color: black;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.ra span {
+    text-align: right;
+}
+
+.text-cenrtre {
+    text-align: center;
+}
+
+.login-register {
+    background: -webkit-linear-gradient(45deg,#efefef,#E9383B 25%, #efefef 25%, #efefef 75%, #E9383B 75%, #efefef);
+    background: -moz-linear-gradient(45deg, #efefef,#E9383B 25%, #efefef 25%, #efefef 75%, #E9383B 75%, #efefef);
+    background: -o-linear-gradient(45deg, #efefef,#E9383B 25%, #efefef 25%, #efefef 75%, #E9383B 75%, #efefef);
+    height: 100%;
+    /*position: fixed;*/
+}
+
+.colorWhite {
+    color: #fff;
+}
+
+.m-t-150 {
+    margin-top: 150px !important;
+}
+
+.required {
+    color: #e9573f;
+}
+
+.table > thead > tr > th {
+    text-transform: uppercase;
+}
+.table > tfoot > tr > th {
+    text-transform: uppercase;
+}
+.tableFooter {
+    background-color: #4a89dc;
+    color: #ffffff;
+    font-weight: bold;
+}

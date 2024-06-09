@@ -1,0 +1,71 @@
+﻿<%--
+Default skin template. The following skins are provided as examples only.
+
+1. Named control skin. The SkinId should be uniquely defined because
+   duplicate SkinId's per control type are not allowed in the same theme.
+
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+2. Default skin. The SkinId is not defined. Only one default 
+   control skin per control type is allowed in the same theme.
+
+<asp:Image runat="server" ImageUrl="~/images/image1.jpg" />
+
+<asp:Button runat="server" class="btn btn-sm btn-icon btn-danger"><i class="fa fa-remove"></i></asp:Button>
+<asp:Button runat="server" class="btn btn-sm btn-icon btn-primary"><i class="fa fa-pencil"></i></asp:Button>
+
+
+--%>
+
+<asp:Button runat="server" SkinId="BtnAdd" CssClass="btn btn-sm btn-success"/>
+<asp:Button runat="server" SkinId="BtnUpdate" CssClass="btn btn-sm btn-success" />
+<asp:Button runat="server" SkinId="BtnEdit" CssClass="btn btn-sm btn-info"/>
+<asp:Button runat="server" SkinId="BtnDelete" CssClass="btn btn-sm btn-danger"/>
+<asp:Button runat="server" SkinId="BtnCancel" CssClass="btn btn-sm btn-default"/>
+<asp:Button runat="server" SkinId="BtnBack" CssClass="btn btn-primary btn-sm" tooltip="Back To List"></asp:Button>
+
+
+<asp:LinkButton runat="server" CssClass="btn btn-icon waves-effect waves-light btn-primary btn-sm" SkinId="LnkBtnAdd" tooltip="Add" >
+    <i class="fa fa-plus font-white"></i></asp:LinkButton>
+<asp:LinkButton runat="server" CssClass="btn btn-icon waves-effect waves-light btn-primary btn-sm" SkinId="LnkBtnAddIcon" tooltip="Add" >
+    <i class="fa fa-plus font-white"></i></asp:LinkButton>
+<asp:LinkButton runat="server" CssClass="btn btn-info btn-circle btn-sm" SkinId="LnkBtnUpdate" tooltip="Update" >
+    <i class="fa fa-check font-white"></i></asp:LinkButton>
+<asp:LinkButton runat="server" CssClass="btn btn-icon waves-effect waves-light btn-danger btn-sm" SkinId="LnkBtnDelete" tooltip="Delete" ><i class="fa fa-trash-o font-white"></i></asp:LinkButton>
+<asp:LinkButton runat="server" CssClass="btn btn-info btn-circle btn-sm" SkinId="LnkBtnEdit" tooltip="Edit"><i class="ion-edit"></i></asp:LinkButton>
+<asp:LinkButton runat="server" CssClass="btn btn-primary btn-sm" SkinId="LnkBtnPrint" tooltip="Print"><i class="fa fa-print font-white"></i></asp:LinkButton>
+<asp:LinkButton runat="server" CssClass="btn btn-default btn-circle btn-sm" SkinId="LnkBtnView" tooltip="View"><i class="fa fa-eye"></i></asp:LinkButton>
+<asp:LinkButton runat="server" CssClass="btn btn-pink btn-sm" SkinId="LnkBtnReport" tooltip="Report"><i class="fa fa-file-o m-r-5"></i><span>Compare Report</span></asp:LinkButton>
+<asp:LinkButton runat="server" CssClass="btn btn-pink btn-sm" SkinId="LnkBtnMail" tooltip="Report"><i class="fa fa-paper-plane"></i><span></span></asp:LinkButton>
+<asp:LinkButton runat="server" CssClass="btn btn-danger btn-circle btn-sm" SkinId="LnkBtnCancel" tooltip="Cancel"><i class="fa fa-remove"></i></asp:LinkButton>
+
+<asp:HyperLink runat="server" CssClass="btn btn-sm btn-purple" SkinId="HypBtnList">
+    <i class="mdi mdi-view-list m-r-5"></i><span>Go To List</span></asp:HyperLink>
+<asp:HyperLink runat="server" CssClass="btn btn-sm btn-purple" SkinId="HypBtnListIcon">
+    <i class="mdi mdi-view-list m-r-5"></i></asp:HyperLink>
+<asp:HyperLink runat="server" CssClass="btn btn-sm btn-primary" SkinId="HypBtnAdd" tooltip="Add">
+    <i class="fa fa-plus font-white m-r-5"></i></asp:HyperLink>
+<asp:HyperLink runat="server" CssClass="btn btn-sm btn-primary" SkinId="HypBtnAddText" tooltip="Add">
+    <i class="fa fa-plus m-r-5"></i>Add New</asp:HyperLink>
+<asp:HyperLink runat="server" CssClass="btn btn-sm btn-info" SkinId="HypBtnEdit" tooltip="Edit">
+    <i class="ion-edit"></i></asp:HyperLink>
+<asp:HyperLink runat="server" CssClass="btn btn-sm btn-danger" SkinId="HypBtnDelete" tooltip="Delete">
+    <i class="fa fa-trash-o font-white"></i></asp:HyperLink>
+<asp:HyperLink runat="server" CssClass="btn btn-sm btn-default" SkinId="HypBtnView" tooltip="View">
+    <i class="fa fa-eye"></i></asp:HyperLink> <%--ion-eye--%>
+<asp:HyperLink runat="server" CssClass="btn btn-sm btn-inverse" SkinId="HypBtnPrint">
+    <i class="fa fa-print font-white"></i></asp:HyperLink>
+<asp:HyperLink runat="server" CssClass="btn btn-sm btn-teal" SkinId="HypBtnUpdate">
+    <i class="fa fa-retweet"></i></asp:HyperLink>
+<asp:HyperLink runat="server" CssClass="btn btn-pink btn-sm" SkinId="HypLnkReport" tooltip="Report">
+    <i class="fa fa-file-o m-r-5"></i><span>Compare Report</span></asp:HyperLink>
+<asp:HyperLink runat="server" CssClass="btn btn-pink btn-sm" SkinId="HypLnkModvat" tooltip="Modvat">
+    <span>MODVAT</span><i class="fa fa-arrow-right m-l-5"></i></asp:HyperLink>
+<asp:HyperLink runat="server" CssClass="btn btn-teal btn-sm" SkinId="HypLnkPOA" tooltip="PURCHASE Actual">
+    <span>PURCHASE Actual</span><i class="fa fa-arrow-right m-l-5"></i></asp:HyperLink>
+<asp:HyperLink runat="server" CssClass="btn btn-teal btn-sm" SkinId="HypLnkInvoice" tooltip="Invoice">
+    <span>Invoice</span><i class="fa fa-arrow-right m-l-5"></i></asp:HyperLink>
+
+
